@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#back {
+    height: 70vh;
+    width: 50%;
+    background-color: rgb(247, 247, 247);
+    margin: 0 auto;
+    padding: 5px;
+}
+#tupian {
+    width: 95%;
+    padding: 20px;
+    margin-top: 40px;
+}
+#daohan {
+    height: 4%;
+    width: 100%;
+    background-color: rgb(196, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#biaoti {
+    font-size: 3vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+strong {
+    font-size: 3vh;
+    padding: 20px;
+    color: rgb(48, 48, 48);
+}
+#riqi {
+    padding: 20px;
+    color: rgb(121, 121, 121);
+}
+#icon {
+    width: 5%;
+    position:absolute ;
+    top: 61%;
+    right: 26%;
+}
+#gengduo {
+    height: 4vh;
+    width: 50%;
+    background-color: rgb(247, 247, 247);
+    margin: 100px auto;
+    padding: 10px;
+}
+#b {
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gengduo:hover {
+    color: rgb(136, 135, 135);
+}
+@media (max-width:425px) {
+    #back {
+        width: 90%;
+    }
+    #tupian {
+        padding: 2vw;
+    }
+    #back {
+        height: 70vh;
+        width: 100%;
+        background-color: rgb(247, 247, 247);
+        margin: 0 auto;
+        padding: 0px;
+    }
+    #daohan {
+        height: 6%;
+        width: 100%;
+        background-color: rgb(196, 0, 0);
+    }
+    #icon {
+        width: 15%;
+        position:absolute ;
+        top: 40%;
+        right: 5%;
+    }
+}
+
+@media (min-width:426px) and (max-width:1200px) {
+    #back {
+        width: 90%;
+    }
+    #tupian {
+        padding: 2vw;
+    }
+    #back {
+        height: 70vh;
+        width: 100%;
+        background-color: rgb(247, 247, 247);
+        margin: 0 auto;
+        padding: 0px;
+    }
+    #daohan {
+        height: 6%;
+        width: 100%;
+        background-color: rgb(196, 0, 0);
+    }
+    #icon {
+        width: 15%;
+        position:absolute ;
+        top: 50%;
+        right: 5%;
+    }
+}
+@media (max-height:660px) {
+    #icon {
+        width: 15%;
+        position:absolute ;
+        top: 60%;
+        right: 5%;
+    }
+}
